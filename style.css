@@ -1,9 +1,79 @@
-body {
-    color: #444;
-    font-family: Arial, sans-serif;
+.tittle{
+    background-image: url("https://www.naadac.org/assets/2416/new-york-banner.jpg");
+    position: -ms-page;
+    width: 100%;
+    z-index:2;
+    height: 200px;
+    color: white;
+    text-align: center;
+    line-height: 200px;
 }
 
-.container {
-    width: 100%;
-    max-width: 960px;
+
+.navigator{
+    width: 200px;
 }
+.navigator a button:hover{
+    color: black;
+    background-color: darkgrey;
+    
+}
+
+.rentButton{
+    color: black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.navbar {
+    float: left;
+    display: block;
+    color: #ac3d3d;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#legend {
+    background: #FFF;
+    padding: 10px;
+    margin: 5px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+  }
+
+  .color {
+    border: 1px solid;
+    height: 12px;
+    width: 12px;
+    margin-right: 3px;
+    float: left;
+  }
+
+  .red {
+    background: #C00;
+  }
+
+  .yellow {
+    background: #FF3;
+  }
+
+  .blue {
+    background: #06C;
+  }
+
+  .green {
+    background: #6F0;
+  }
+
+  .purple {
+    background: #63C;
+  }
+
+
